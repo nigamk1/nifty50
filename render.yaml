@@ -3,6 +3,7 @@ services:
     name: nifty50-alert-system
     env: node
     plan: free
+    branch: live
     buildCommand: npm install
     startCommand: npm start
     healthCheckPath: /health
